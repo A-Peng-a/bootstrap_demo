@@ -1,0 +1,129 @@
+			.navbar-transparent{
+				padding: 20px;				
+				}
+			.tit {
+				font-size: 30px;
+				color: #fed136;
+			}
+			.tit:hover{
+				font-size: 30px;
+				color: #fed136;
+			}
+			.tit:focus{
+				font-size: 30px;
+				color: #fed136;
+			}
+			.icon-bar{
+				background:#fed136;
+			}
+			.listul li a {
+				color: white;
+			}
+			.listul li a:focus {
+				background:#fed136 ;
+				color: white;
+			}
+			.listul li a:hover {
+				background:#fed136;
+				color: white;
+				/* background: transparent; */
+			}
+			.content {
+				width: 100%;
+				height: 980px;
+				background-image: url(../img/header-bg.jpg);
+				background-position: center center;
+				background-size: cover;
+				color: white;
+				display: grid;
+
+			}
+			.content h1{
+				font-size: 80px;
+				font-weight: bold;
+			}
+			.content button{
+				height: 40px;
+				width: 150px;
+				font-size: 18px;
+				background: #fed136;
+			}
+			.services .small_box {
+				padding: 50px;
+			}
+			.Mask{		
+				cursor: pointer;
+				z-index: 2;
+				position: relative;
+			}			
+			.Mask:after {
+			    content: "";
+			    position: absolute;
+			    bottom: 0;
+			    left: 0px;
+			    right: 0px;
+			    background: rgba(0, 0, 0, 0.6);
+			    height: 100%;
+				width: 0;
+			    z-index: 3;
+				transition: width 0.6s;
+				-moz-transition: width 0.6s;	/* Firefox 4 */
+				-webkit-transition: width 0.6s;	/* Safari 和 Chrome */
+				-o-transition: width 0.6s;	/* Opera */
+			}
+			.Mask:hover:after{
+				width: 100%;
+			}
+			.bg-info .small_box {
+				padding: 20px;
+				background: white;
+				margin: 10px;
+			}
+			.About .box {
+				height: 200px;
+			}
+			.About .box img{
+				border: 8px solid darkgray;
+			}
+			.About .bigbox {
+				width: 50%;
+				margin-top: 50px;
+			}
+			
+			.amazing .box{
+				padding: 20px;
+				background: white;
+				
+			}
+			.amazing .box img{
+				width: 50%;
+				border: 8px solid darkgray;
+			}
+			.amazing_p{
+				width: 50%;
+				margin-top: 50px;
+			}
+			.contact{
+				background: url(../img/map-image.png);
+				background-position: center center;
+				background-size: cover;
+				background-color: #000000;
+				height: 800px;
+				display: grid;
+				vertical-align: middle;
+			}
+			.contact form textarea{
+				height: 210px;
+			}
+			.contact form input{
+				height: 60px;
+			}
+			.contact form button{
+				height: 50px;
+				background: #fed136;
+			}
+			@media screen and (max-width: 993px) {
+			   .About .bigbox {
+			   	width: 100%;
+			   }
+			}
